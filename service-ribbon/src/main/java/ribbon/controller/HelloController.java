@@ -1,10 +1,11 @@
-package controller;
+package ribbon.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import service.HelloService;
+import ribbon.service.HelloService;
+
 
 /**
  * Created by Administrator on 2018/9/10.
