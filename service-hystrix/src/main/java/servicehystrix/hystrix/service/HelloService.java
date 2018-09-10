@@ -1,4 +1,4 @@
-package ribbon.service;
+package servicehystrix.hystrix.service;
 
 /**
  * Created by wei.peng on 2018/9/10.

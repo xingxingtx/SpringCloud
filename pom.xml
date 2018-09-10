@@ -13,15 +13,19 @@
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>`
+		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.0.3.RELEASE</version>
 		<relativePath/>
 	</parent>
 	<modules>
-		<module>eureka-server</module>
 		<module>service-hi</module>
+		<module>service-hi-two</module>
 		<module>service-ribbon</module>
+		<module>serice-feign-one</module>
+		<module>service-hystrix</module>
+		<module>eureka-server</module>
 		<module>eureka-server-two</module>
+		<module>eureka-server-three</module>
 	</modules>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -38,6 +42,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
